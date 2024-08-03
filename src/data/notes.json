@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "My note",
+    "date": "1/07/24",
+    "category": "Normal",
+    "text": "Esta es mi primera tarea"
+  },
+  {
+    "id": 2,
+    "title": "My note",
+    "date": "1/07/24",
+    "category": "Personal",
+    "text": "Esta es mi segunda tarea"
+  },
+  {
+    "id": 3,
+    "title": "My note",
+    "date": "2/07/24",
+    "category": "study",
+    "text": "Esta es mi tercera tarea"
+  },
+  {
+    "id": 4,
+    "title": "My note",
+    "date": "3/07/24",
+    "category": "Normal",
+    "text": "Esta es mi cuarta tarea"
+  },
+  {
+    "id": 5,
+    "title": "My note",
+    "date": "4/07/24",
+    "category": "Personal",
+    "text": "Esta es mi quinta tarea"
+  },
+  {
+    "id": 6,
+    "title": "My note",
+    "date": "5/07/24",
+    "category": "study",
+    "text": "Esta es mi sexta tarea"
+  },
+  {
+    "id": 7,
+    "title": "My note",
+    "date": "6/07/24",
+    "category": "Normal",
+    "text": "Esta es mi séptima tarea"
+  },
+  {
+    "id": 8,
+    "title": "My note",
+    "date": "7/07/24",
+    "category": "Personal",
+    "text": "Esta es mi octava tarea"
+  },
+  {
+    "id": 9,
+    "title": "My note",
+    "date": "8/07/24",
+    "category": "study",
+    "text": "Esta es mi novena tarea"
+  },
+  {
+    "id": 10,
+    "title": "My note",
+    "date": "9/07/24",
+    "category": "Normal",
+    "text": "Esta es mi décima tarea"
+  }
+]

@@ -1,0 +1,46 @@
+.card-note{
+  /* border: 1px solid rgb(0, 0, 255); */
+  border: 1px solid #fff;
+  height: auto;
+  width: 80%;
+  display: flex;
+  padding: 5px;
+  border-radius: 5px;
+}
+.card-note-info{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+.card-note-info-name{
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 25px ;
+  font-weight: bolder;
+  height: auto;
+  width: 60%;
+}
+.card-note-info > span{
+  font-size: 12px;
+  opacity: .5;
+}
+/*estilos de las opciones*/
+.card-note-option{
+  display: flex;
+  width: 20%;
+  height: 20%;
+  gap: 1rem;
+}
+.card-note-option>button{
+  border: none;
+  background-color: transparent;
+}
+.icon-option-edit{
+  color: #ccc;
+  font-size: 20px;
+}
+.icon-option-delet{
+  color: rgb(209, 22, 22);
+  font-size: 20px;
+}
