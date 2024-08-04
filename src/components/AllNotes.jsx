@@ -6,7 +6,7 @@ import { useContextNotes } from "../context/Notes";
 import { useEffect } from "react";
 
 export function AllNotes({ isNewNote }) {
-  const {getAllNotes,getNotesCategory,Notes} = useContextNotes();
+  const {getAllNotes,getNotesCategory,Notes,selectNote} = useContextNotes();
   useEffect(()=>{
     getAllNotes()
   },[])
@@ -26,7 +26,7 @@ export function AllNotes({ isNewNote }) {
         <div className="all-notes-list">
           {
             Notes.map(note =>(
-              <CardNote note={note} key={note.id}/>
+              <CardNote note={note} key={note.id} select={selectNote}/>
             ))
           }
         </div>

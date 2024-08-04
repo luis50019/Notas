@@ -3,12 +3,13 @@
   flex-direction: column;
 }
 .my-notes-header-name {
-  width: 95%;
+  width: 75%;
   font-size: 4rem;
   font-weight: bolder;
   text-align: left;
   color: #eee;
   /* background-color: #181717; */
+  /* border: 1px solid #fff; */
   background-color: transparent;
   resize: none; 
   overflow: hidden;
@@ -55,4 +56,34 @@
 .separator-line{
   border: 1px solid #333;
   width: 95%;
+}
+/*estilos de lo botones*/
+.my-notes-header-buttons{
+  /* border: 1px solid #fff; */
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  z-index: 100;
+  position: absolute;
+  gap: 0px 2rem;
+  right: 50px;
+  top: 20px;
+}
+.my-notes-header-buttons>button{
+  width: 4rem;
+  border: none;
+  font-family: system-ui;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 5px;
+  border-radius: 5px;
+  outline: none;
+}
+.btn-save{
+  background-color: rgb(255, 91, 15);
+  color: #fff;
+}
+.btn-cancel{
+  background-color: rgb(228, 16, 16);
+  color: #fff;
 }

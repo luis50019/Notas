@@ -2,9 +2,10 @@ import "../styles/CardNote.css"
 import { MdDelete } from "react-icons/md";
 import { RiEdit2Fill } from "react-icons/ri";
 
-export function CardNote({note}){
+export function CardNote({note,select}){
+
   return(
-    <div className="card-note">
+    <div className="card-note" onClick={()=>select(note)}>
       <div className="card-note-info">
         <p className="card-note-info-name">
           {note.title}

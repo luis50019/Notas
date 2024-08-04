@@ -3,6 +3,7 @@ import ResNotes from "../data/notes.json"
 
 const ContextNotes = createContext('');
 export function useContextNotes(){
+
   const context = useContext(ContextNotes);
   if(!context) return null
   return context
@@ -10,6 +11,11 @@ export function useContextNotes(){
 
 export function Notes({children}){
   const [Notes,setNotes] = useState([]);
+  const [noteSelect,setNoteSelect] = useState({});
+
+  const selectNote =(note)=>{
+    setNoteSelect(note);
+  }
 
   const getAllNotes =()=>{
     setNotes(ResNotes);
@@ -25,8 +31,8 @@ export function Notes({children}){
     return ;
   }
 
-  const newNote = (note)=>{
-    note.id = ResNotes.length;
+  const addNewNota = (note)=>{
+    note.id = ResNotes.length+1;
     setNotes([note,...ResNotes]);
   }
 
@@ -38,9 +44,11 @@ export function Notes({children}){
     <ContextNotes.Provider value={{
       getAllNotes,
       getNotesCategory,
-      newNote,
+      addNewNota,
       deleteNote,
-      Notes
+      selectNote,
+      Notes,
+      noteSelect
     }}>
       {children}
     </ContextNotes.Provider>

@@ -8,17 +8,17 @@
 
 //componenente all notes
 [listo] boton para agregar mas tareas
-  [] progamar dicho boton
+  [listo] progamar dicho boton
 [listo] boton para mostrar las categorias
   [listo] programar dicho boton
 [listo] este es el encargado de renderizar todas las tareas
 
 // componete My note
-[] debera de mostrar la informacion de la tarea seleccionada
-[] si el usuaro da click en una nueva tarea
-[] debera de mostrar un boton de guardar nota
-[] debera de mostrar un boton de borrar nota
-[] debe de habilitar los campos para poder escribir
+[listo] debera de mostrar la informacion de la tarea seleccionada
+[listo] si el usuaro da click en una nueva tarea
+[listo] debera de mostrar un boton de guardar nota
+[listo] debera de mostrar un boton de borrar nota
+[listo] debe de habilitar los campos para poder escribir
 
 //componene seeker
 [] validar que no tenga espacion vacios
